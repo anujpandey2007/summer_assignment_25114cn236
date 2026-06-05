@@ -1,16 +1,16 @@
-package day_8;
+package day_9;
 
 import java.util.Scanner;
 
-public class code_31 {
+public class code_34 {
     public static void main(String[] args) {
-        //half pyraid pattern
+        //revers number triangle
         Scanner input = new Scanner(System.in);
         System.out.print("enter number-->");
         int num = input.nextInt();
-        for (int i = 0; i <= num; i++) {
-            for (int j = 0; j < i; j++) {
-                System.out.print((char) ('A'+j));
+        for (int i = num; i > 0; i--) { // for row
+            for (int j = 1; j <= i; j++) {//for column
+                System.out.print(j);
 
             }
             System.out.println();
