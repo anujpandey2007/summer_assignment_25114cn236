@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Scanner;
 
-public class day_66 {
+public class code_66 {
 
     // TIME COMPLEXITY IF 0(2N)
 

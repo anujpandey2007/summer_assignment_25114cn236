@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Scanner;
 
-public class day_68 {
+public class code_68 {
 
     public static int[] commonElement(int[] arr1, int[] arr2) {
         HashMap<Integer, Integer> frequencyMap = new HashMap<>();

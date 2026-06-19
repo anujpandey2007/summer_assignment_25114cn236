@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 
 
-public class day_67 {
+public class code_67 {
     public static int [] intersection(int[] arr1 ,int[] arr2){
         HashSet<Integer> set1 = new HashSet<>();
         HashSet<Integer> intersectionSet = new HashSet<>();

@@ -2,7 +2,7 @@ package week_3.day_5;
 
 import java.util.Scanner;
 
-public class day_65 {
+public class code_65 {
      public static int [] mergeArray(int[] arr1 , int[] arr2){
          int[] merge = new int[arr1.length+ arr2.length];
          int j = 0 ;
